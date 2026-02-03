@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-animation"></div>
+
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm [Your Name]</h1>
+            <p class="subtitle">Creative Developer & Designer</p>
+            <p class="description">
+                Passionate about creating beautiful, functional, and user-centered digital experiences. 
+                I bring ideas to life through code and design.
+            </p>
+            <div class="cta-buttons">
+                <a href="#skills" class="btn btn-primary">View My Skills</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="fade-in">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Get to know me better</p>
+        </div>
+        
+        <div class="about-content fade-in">
+            <div class="about-text">
+                <p>
+                    I'm a passionate developer and designer currently pursuing my degree in Computer Application. 
+                    I love building things that live on the internet, whether that be websites, applications, 
+                    or anything in between.
+                </p>
+                <p>
+                    My goal is to always build products that provide pixel-perfect, performant experiences. 
+                    I'm constantly learning new technologies and improving my skills to stay at the forefront 
+                    of web development.
+                </p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>💻 Frontend</h3>
+                    <p>HTML, CSS, JavaScript, React</p>
+                </div>
+                <div class="skill-card">
+                    <h3>🛠️ Tools</h3>
+                    <p>Git, VS Code, npm</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="fade-in">
+            <h2 class="section-title">My Skills</h2>
+            <p class="section-subtitle">Technologies and tools I work with</p>
+        </div>
+        
+        <div class="projects-grid">
+            <div class="project-card fade-in">
+                <div class="project-image">📄</div>
+                <div class="project-content">
+                    <h3>HTML5</h3>
+                    <p>Proficient in semantic HTML5, creating structured and accessible web pages with proper markup and best practices.</p>
+                    <div class="project-tags">
+                        <span class="tag">Semantic HTML</span>
+                        <span class="tag">Forms</span>
+                        <span class="tag">Accessibility</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-image">🎨</div>
+                <div class="project-content">
+                    <h3>CSS3</h3>
+                    <p>Expert in modern CSS including Flexbox, Grid, animations, transitions, and responsive design principles.</p>
+                    <div class="project-tags">
+                        <span class="tag">Flexbox</span>
+                        <span class="tag">Grid</span>
+                        <span class="tag">Animations</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-image">⚡</div>
+                <div class="project-content">
+                    <h3>JavaScript</h3>
+                    <p>Strong knowledge of JavaScript ES6+, DOM manipulation, async programming, and building interactive web applications.</p>
+                    <div class="project-tags">
+                        <span class="tag">ES6+</span>
+                        <span class="tag">DOM</span>
+                        <span class="tag">APIs</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-image">🔧</div>
+                <div class="project-content">
+                    <h3>Git & GitHub</h3>
+                    <p>Version control using Git, collaborative development with GitHub, branching strategies, and pull requests.</p>
+                    <div class="project-tags">
+                        <span class="tag">Version Control</span>
+                        <span class="tag">Collaboration</span>
+                        <span class="tag">Workflows</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-image">📱</div>
+                <div class="project-content">
+                    <h3>Responsive Design</h3>
+                    <p>Creating mobile-first, responsive websites that work seamlessly across all devices and screen sizes.</p>
+                    <div class="project-tags">
+                        <span class="tag">Mobile-First</span>
+                        <span class="tag">Media Queries</span>
+                        <span class="tag">Flexbox</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-image">🛠️</div>
+                <div class="project-content">
+                    <h3>Developer Tools</h3>
+                    <p>Comfortable with VS Code, browser DevTools, npm, debugging, and modern web development workflows.</p>
+                    <div class="project-tags">
+                        <span class="tag">VS Code</span>
+                        <span class="tag">DevTools</span>
+                        <span class="tag">npm</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="fade-in">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's create something amazing together</p>
+        </div>
+        
+        <div class="contact-content fade-in">
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+
+            <div class="social-links">
+                <a href="#" class="social-link" title="GitHub">📁</a>
+                <a href="#" class="social-link" title="LinkedIn">💼</a>
+                <a href="#" class="social-link" title="Twitter">🐦</a>
+                <a href="#" class="social-link" title="Email">✉️</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
